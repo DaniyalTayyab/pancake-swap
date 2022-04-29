@@ -1,7 +1,9 @@
 import React from "react";
-import Button from "./button";
+// import Button from "./button";
 import "../App.css";
 import ToogleSwitch from "./toogle_switch";
+import DropDown from "./dropdown";
+import Card from "./card";
 
 const OptionMenu = () => {
   return (
@@ -36,11 +38,11 @@ const OptionMenu = () => {
         </div>
       </div>
       <div className="right-option-menu">
-        <div className="damru">
+        <div>
           <label htmlFor="search">SORT BY</label> <br />
-          <input type="text" name="search" id="search" />
+          <DropDown />
         </div>
-        <div className="damru">
+        <div className="ml-2">
           <label htmlFor="search">Search</label> <br />
           <input type="text" name="search" id="search" />
         </div>

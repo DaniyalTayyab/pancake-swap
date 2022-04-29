@@ -52,35 +52,24 @@
 
 .option-menu {
   display: flex;
+  flex-direction: row !important;
   width: 100%;
-  -webkit-box-align: center;
-  align-items: center;
   position: relative;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  flex-direction: column;
-  margin-bottom: 32px;
 }
 .left-option-menu {
-  flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  width: 100%;
   float: left;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .right-option-menu {
-  flex-wrap: wrap;
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  width: 100%;
-  padding: 8px 0px;
-  width: 50%;
   float: right;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .switch {
@@ -144,4 +133,12 @@ input:checked + .slider:before {
 
 .damru {
   display: inline-flex;
+}
+
+.ml-2 {
+  margin-left: 10px;
+}
+
+.own {
+  width: 28rem;
 }
