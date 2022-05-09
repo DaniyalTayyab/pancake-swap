@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+  color: rgb(122, 110, 170);
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 200px 1fr 360px;
+  padding: 2px;
+  border-bottom: 1px solid rgb(231, 227, 235);
+  align-items: center;
+}
+
+.logo-container {
+  display: grid;
+  grid-template-columns: 36px 1fr;
+  column-gap: 5px;
+  align-items: center;
+  padding: 10px;
+}
+
+label.logo {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.ul {
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.li-item {
+  display: inline-block;
+  padding: 12px;
+  border-radius: 10px;
+  transition: 0.15s;
+  color: rgb(122, 110, 170);
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.li-item:hover {
+  background: rgb(239 244 245);
+}
+
+.active {
+  font-weight: 600;
+}
+
+.ul-right {
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  align-self: center;
+  position: absolute;
+  right: 0;
+}
+
+.btn {
+  border: none;
+  background: rgb(31, 199, 212);
+  border-radius: 20px;
+  padding: 2 16px;
+  color: white;
+  transition: 0.15s;
+}
+
+.btn:hover {
+  opacity: 0.7;
+  color: white;
+}
+
+.right-li {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.logo-change {
+  height: 24px;
+  transition: ease-in 0.15s;
+}
+
+.logo-change:hover {
+  height: 26px;
+}

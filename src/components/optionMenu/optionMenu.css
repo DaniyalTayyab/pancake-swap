@@ -1,0 +1,26 @@
+.option-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+  padding: 16px 32px;
+}
+
+.dot-grid {
+  border: none;
+  width: 20px;
+}
+
+.btn-grid {
+  border: none;
+  width: 32px;
+  background: transparent;
+}
+
+.toogle-switch {
+  display: inline-block;
+}
+
+.stakd-only {
+  color: rgb(40, 13, 95);
+  margin-left: 8px;
+}

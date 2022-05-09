@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.item {
+  height: auto;
+  min-height: 100%;
+  margin-right: 16px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border-bottom: 5px solid transparent;
+  transition: ease-in 0.15s;
+  letter-spacing: 0.5px;
+}
+
+.item:hover {
+  cursor: pointer;
+  background: rgb(239 244 245);
+}
+
+.active-item {
+  font-weight: 600;
+  border-bottom: 5px solid rgb(31, 199, 212);
+}
