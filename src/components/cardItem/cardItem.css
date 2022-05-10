@@ -27,6 +27,7 @@ p {
 .part-1 {
   display: grid;
   grid-template-columns: 64px 1fr;
+  border: 1px solid black;
 }
 
 .card-info-right,
@@ -35,6 +36,7 @@ p {
   margin-right: 5px;
   padding: 3px;
   border-radius: 18px;
+  vertical-align: top;
 }
 
 .card-info-right {
@@ -44,4 +46,77 @@ p {
 .card-info-left {
   background-color: rgb(118, 69, 217);
   color: white;
+  width: 45px;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 6px;
+}
+
+.card-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card-info-tick {
+  margin-bottom: 0 !important;
+  padding: 0 8px;
+  height: 20px;
+  color: rgb(118, 69, 217);
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  font-size: 14px;
+}
+
+.tick-stamp {
+  margin-right: 5px;
+}
+
+.part-2,
+.part-3 {
+  position: relative;
+  color: rgb(118, 69, 217);
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  border: 1px solid black;
+  height: 30px;
+}
+
+.apr-value,
+.earn-value {
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.part-4 {
+  display: grid;
+  grid-template-columns: 1fr 120px;
+  padding-top: 16px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.cake-p {
+  font-size: 12px;
+  color: rgb(118, 69, 217);
+  font-weight: 700;
+}
+
+.cake-p-h2 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.harv-btn {
+  padding: 0 24px;
+  position: absolute;
+  top: 31%;
+  height: 48px;
+  border-radius: 16px;
+  border: none;
+  opacity: 0.5;
 }

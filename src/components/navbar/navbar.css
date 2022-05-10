@@ -1,12 +1,5 @@
-* {
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
-  font-family: "Kanit", sans-serif;
-  color: rgb(122, 110, 170);
-}
+/* * {
+} */
 
 .nav {
   display: grid;
@@ -14,6 +7,13 @@
   padding: 2px;
   border-bottom: 1px solid rgb(231, 227, 235);
   align-items: center;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+  color: rgb(122, 110, 170);
 }
 
 .logo-container {
@@ -66,8 +66,8 @@ label.logo {
 
 .btn {
   border: none;
-  background: rgb(31, 199, 212);
-  border-radius: 20px;
+  background: rgb(31, 199, 212) !important;
+  border-radius: 20px !important;
   padding: 2 16px;
   color: white;
   transition: 0.15s;

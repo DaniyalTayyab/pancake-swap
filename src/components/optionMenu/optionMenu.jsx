@@ -12,15 +12,15 @@ const OptionMenu = () => {
         <button className="btn-grid">
           <img className="dot-grid" src={dotgrid} alt="dotgrid" />
         </button>
-        <div class="form-check form-switch toogle-switch">
+        <div className="form-check form-switch toogle-switch">
           <input
-            class="form-check-input"
+            className="form-check-input"
             type="checkbox"
             role="switch"
             id="flexSwitchCheckDefault"
           />
           <label
-            class="form-check-label stakd-only"
+            className="form-check-label stakd-only"
             for="flexSwitchCheckDefault"
           >
             Staked only

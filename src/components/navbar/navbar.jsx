@@ -23,12 +23,7 @@ const NavBar = () => {
 
       <ul className="ul-right">
         <li className="right-li">
-          <img
-            className="logo-change"
-            src={hang}
-            alt="logo"
-            // style={{ height: 24 }}
-          />
+          <img className="logo-change" src={hang} alt="logo" />
         </li>
         <li className="right-li">$6.637</li>
         <li className="right-li">
