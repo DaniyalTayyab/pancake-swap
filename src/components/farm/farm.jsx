@@ -5,9 +5,11 @@ import "./farm.css";
 
 const Farm = () => {
   return (
-    <div className="farm-conatiner">
-      <OptionMenu />
-      <Card />
+    <div className="farm-background">
+      <div className="farm-conatiner">
+        <OptionMenu />
+        <Card />
+      </div>
     </div>
   );
 };

@@ -4,7 +4,9 @@ import hang from "../../assets/hang.png";
 import tick from "../../assets/tick.png";
 import calculator from "../../assets/calculator.png";
 
-const CardItem = () => {
+const CardItem = ({ name, apr, earned, cake_earned }) => {
+  // const { name, apr, earned, cake_earned } = props;
+  // console.log("name", name);
   return (
     <div className="card-item-container">
       <div className="card-item-inner">
@@ -15,7 +17,7 @@ const CardItem = () => {
             </div>
             <div className="card-info right">
               <div>
-                <h2 className="card-name">CAKE-BNB</h2>
+                <h2 className="card-name">{name}</h2>
               </div>
               <div className="card-info-wrap">
                 <div className="card-info-right">
@@ -32,20 +34,20 @@ const CardItem = () => {
           <div className="part-2">
             <div className="apr">APR:</div>
             <div className="apr-value">
-              34.33%&emsp;
+              {apr}&emsp;
               <img src={calculator} alt="calculator" />
             </div>
           </div>
 
           <div className="part-3">
             <div className="earn">Earn</div>
-            <div className="earn-value">CAKE + Fees</div>
+            <div className="earn-value">{earned}</div>
           </div>
 
           <div className="part-4">
             <div className="cake-earned-left">
               <p className="cake-p">CAKE EARNED</p>
-              <h2 className="cake-p-h2">0.000</h2>
+              <h2 className="cake-p-h2">{cake_earned}</h2>
               <p className="cake-p">CAKE-BNB LP STAKED</p>
             </div>
             <div className="cake-earned-right">
@@ -54,7 +56,7 @@ const CardItem = () => {
           </div>
 
           <div className="part-5">
-            <button>Connect Wallet</button>
+            <button className="connect-btn">Connect Wallet</button>
           </div>
         </div>
         <div className="lower-card">lower card</div>

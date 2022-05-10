@@ -9,8 +9,6 @@ const Home = () => {
       <TabMenu />
       <Hero />
       <Farm />
-      {/* <OptionMenu />
-      <Card /> */}
     </>
   );
 };
