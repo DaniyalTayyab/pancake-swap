@@ -1,5 +1,37 @@
 .card-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 350px 350px 350px;
   padding: 16px 32px;
+}
+
+@media (max-width: 1170px) {
+  .card-container {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 858px) {
+  .card-container {
+    display: grid;
+    grid-template-columns: 350px;
+    margin-left: 20%;
+  }
+}
+
+@media (max-width: 600px) {
+  .card-container {
+    display: grid;
+    grid-template-columns: 350px;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 500px) {
+  .card-container {
+    display: grid;
+    grid-template-columns: 350px;
+    margin-left: 0;
+  }
 }

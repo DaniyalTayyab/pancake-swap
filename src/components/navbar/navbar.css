@@ -92,3 +92,29 @@ label.logo {
 .logo-change:hover {
   height: 26px;
 }
+
+.check-btn {
+  font-size: 25px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 952px) {
+  .logo {
+    display: none;
+  }
+
+  nav ul li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 858px) {
+  .ul {
+    display: none;
+  }
+}

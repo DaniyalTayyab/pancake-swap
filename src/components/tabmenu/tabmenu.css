@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
   margin: 0;
+  color: rgb(118, 69, 217);
 }
 
 .item {
@@ -22,6 +23,24 @@
 }
 
 .active-item {
-  font-weight: 600;
+  font-weight: 700;
   border-bottom: 5px solid rgb(31, 199, 212);
+}
+
+@media (max-width: 952px) {
+  .container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin: 0;
+  }
+}
+
+@media (max-width: 858px) {
+  .container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin: 0;
+  }
 }
