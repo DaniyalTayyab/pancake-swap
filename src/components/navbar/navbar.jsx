@@ -4,6 +4,7 @@ import "./navbar.css";
 import hang from "../../assets/hang.png";
 import globe from "../../assets/globe.png";
 import gear from "../../assets/gear.png";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -14,7 +15,9 @@ const NavBar = () => {
       </div>
 
       <ul className="ul">
-        <li className="li-item">Trade</li>
+        <li className="li-item">
+          <Link to="/trade">Trade</Link>
+        </li>
         <li className="li-item active">Earn</li>
         <li className="li-item">Win</li>
         <li className="li-item">NFT</li>

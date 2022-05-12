@@ -1,0 +1,157 @@
+.section-one-container {
+  margin: 0;
+  padding: 0;
+  background: rgb(231, 252, 255);
+  font-family: Kanit, sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 1000px;
+}
+
+.top-banner {
+  width: 1152px;
+  padding: 20px;
+  background: rgb(79, 48, 142);
+  border-radius: 24px;
+  margin-top: 70px;
+  margin-bottom: 25px;
+  height: 200px;
+  margin-bottom: 15px;
+}
+
+.top-inner-banner {
+  /* margin: 24px; */
+}
+
+.lottery-text {
+  color: white;
+  font-weight: 700;
+  display: block;
+}
+
+h2 {
+  display: inline-block;
+}
+
+.timer-container {
+  margin-bottom: 15px;
+  padding: 5px 0;
+  background: rgb(59, 31, 118);
+  border: 1px solid rgb(59, 31, 118);
+  color: rgb(255, 204, 14) !important;
+  border-radius: 14px;
+  display: inline-block;
+}
+
+.timer-digit {
+  font-size: 35px !important;
+  color: rgb(255, 204, 14) !important;
+  margin-right: 3px;
+  margin-bottom: 0;
+}
+
+.timer-sub {
+  font-size: 20px !important;
+  color: rgb(255, 204, 14) !important;
+  margin-right: 8px;
+  margin-bottom: 0;
+}
+
+.play-btn {
+  display: block;
+  background: rgb(31, 199, 212);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 16px;
+  padding: 0 24px;
+  height: 48px;
+  border: none;
+}
+
+.moon-section {
+  display: flex;
+  width: 95%;
+  margin-top: 130px;
+  position: relative;
+  /* margin: 0 30px; */
+}
+
+.left-moon {
+  flex: 1;
+}
+
+.moon-heading {
+  font-size: 64px !important;
+  font-weight: 600 !important;
+  color: rgb(118, 69, 217);
+  margin-bottom: 24px;
+}
+
+.moon-description {
+  color: rgb(40, 13, 95);
+  margin-bottom: 24px;
+  font-size: 20px !important;
+}
+
+.moon-btns {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.left-moon-btn {
+  background: rgb(31, 199, 212);
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 16px;
+  padding: 0 24px;
+  height: 48px;
+  border: none;
+  margin-right: 10px;
+}
+
+.right-moon-btn {
+  background: transparent;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 16px;
+  padding: 0 24px;
+  height: 48px;
+  border: none;
+  border: 2px solid rgb(31, 199, 212);
+}
+
+.right-moon {
+  flex: 1;
+  /* position: absolute; */
+}
+
+.fly-bunny {
+  /* position: absolute; */
+  height: 600px;
+  margin-top: -115px;
+  z-index: 9;
+}
+
+.custom-shape-divider-bottom-1652367446 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1652367446 svg {
+  position: relative;
+  display: block;
+  width: calc(185% + 1.3px);
+  height: 254px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1652367446 .shape-fill {
+  fill: #f6f7ff;
+}
