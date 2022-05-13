@@ -6,11 +6,12 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 1000px;
+  height: 900px;
 }
 
 .top-banner {
-  width: 1152px;
+  /* width: 1152px; */
+  width: 90%;
   padding: 20px;
   background: rgb(79, 48, 142);
   border-radius: 24px;

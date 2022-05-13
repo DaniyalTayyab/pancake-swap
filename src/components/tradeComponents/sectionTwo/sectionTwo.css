@@ -1,0 +1,55 @@
+.section-two {
+  height: 850px;
+  background-image: linear-gradient(rgb(246, 247, 255), rgb(218, 206, 237));
+}
+
+.usage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 110px;
+}
+
+.shut-bunny {
+  width: 64px;
+  margin-bottom: 20px;
+}
+
+.usage-bold {
+  font-size: 40px !important;
+  font-weight: 700 !important;
+  margin-bottom: 0;
+  line-height: 1.1;
+}
+
+.usage-description {
+  color: rgb(122, 110, 170);
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 16px;
+}
+
+.usage-description-below {
+  color: rgb(122, 110, 170);
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 32px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.top-margin {
+  margin-top: 35px;
+}
+
+.usage-card-container {
+}
+
+.usage-card-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

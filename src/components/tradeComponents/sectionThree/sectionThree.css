@@ -1,0 +1,75 @@
+.section-three {
+  height: 650px;
+}
+.secion-three-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0 140px;
+  margin-top: 70px;
+  /* width: 90%; */
+  justify-content: center;
+  align-self: center;
+  align-content: center;
+  /* padding: 40px 24px; */
+  /* justify-content: center; */
+  /* margin: 0 110px; */
+}
+
+.left-coin-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0%;
+  justify-content: center;
+  /* margin-right: 64px; */
+}
+
+.right-coin-container {
+  flex: 1;
+}
+
+.coin-title {
+  margin-bottom: 24px;
+  font-weight: 600 !important;
+  line-height: 1.1;
+  font-size: 40px !important;
+  color: rgb(40, 13, 95);
+}
+
+.trade-text-blue {
+  color: rgb(118, 69, 217);
+}
+
+.trade-coin-description {
+  color: rgb(122, 110, 170);
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+.trade-coin-btns {
+  display: flex;
+  flex-direction: row;
+}
+
+.trade-left-coin-btn {
+  background: rgb(31, 199, 212);
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 16px;
+  padding: 0 24px;
+  height: 48px;
+  border: none;
+  /* margin-right: 10px; */
+}
+
+.trade-right-coin-btn {
+  background: transparent;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 16px;
+  padding: 0 15px;
+  height: 48px;
+  border: none;
+}

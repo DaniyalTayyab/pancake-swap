@@ -1,0 +1,90 @@
+.section-four {
+  background-image: linear-gradient(
+    to right,
+    rgb(241, 236, 242),
+    rgb(234, 241, 245)
+  );
+  height: 700px;
+  padding: 0 140px;
+}
+
+.earn-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+}
+
+.upper-earn-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-earn {
+  flex: 1;
+}
+
+.right-earn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.upper-earn-title {
+  font-size: 40px !important;
+  font-weight: 600 !important;
+  line-height: 1.1;
+  margin-bottom: 24px;
+}
+
+.earn-purple {
+  color: rgb(118, 69, 217);
+}
+
+.uper-earn-description {
+  color: rgb(122, 110, 170);
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+.upper-earn-btns {
+  display: flex;
+  flex-direction: row;
+}
+
+.earn-left-btn {
+  background: rgb(31, 199, 212);
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 16px;
+  padding: 0 24px;
+  height: 48px;
+  border: none;
+  /* margin-right: 10px; */
+}
+
+.earn-right-btn {
+  background: transparent;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 16px;
+  padding: 0 15px;
+  height: 48px;
+  border: none;
+}
+
+.earn-image {
+  height: 420px;
+  margin-top: -100px;
+}
+
+.lower-earn-container {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.earn-lower-one {
+  margin-bottom: 24px;
+}
