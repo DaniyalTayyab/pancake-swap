@@ -1,5 +1,6 @@
 .section-three {
-  height: 650px;
+  height: 550px;
+  margin-top: 0;
 }
 .secion-three-container {
   display: flex;
@@ -72,4 +73,28 @@
   padding: 0 15px;
   height: 48px;
   border: none;
+}
+
+.s-three-container {
+  position: relative;
+}
+
+.custom-shape-divider-top-1652715559 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1652715559 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 47px;
+}
+
+.custom-shape-divider-top-1652715559 .shape-fill {
+  fill: #daceed;
 }

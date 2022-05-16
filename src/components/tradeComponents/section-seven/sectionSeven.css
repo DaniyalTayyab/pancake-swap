@@ -1,0 +1,82 @@
+.section-seven {
+  height: 450px;
+  background-image: linear-gradient(rgb(117, 68, 215), rgb(84, 36, 179));
+}
+
+.connect-container {
+  padding: 48px 0;
+  position: relative;
+}
+
+.connect-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 24px;
+}
+
+.connect-title {
+  font-size: 40px !important;
+  font-weight: 600 !important;
+  line-height: 1.1;
+  color: white;
+  margin-bottom: 24px;
+}
+
+.connect-description {
+  color: white;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 16px;
+}
+
+.connect-description-two {
+  color: white;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+.how-to-start {
+  color: rgb(31, 199, 212);
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.how-to-start:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.connect-btn {
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  padding: 0px 24px;
+  background-color: rgb(31, 199, 212);
+  color: white;
+  margin-top: 24px;
+  align-items: center;
+  border: 0px;
+  border-radius: 16px;
+  box-shadow: rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
+  width: 170px;
+}
+
+.connect-left-float {
+  position: absolute;
+  left: 50px;
+  top: 0;
+  height: 260px;
+}
+
+.connect-right-float {
+  position: absolute;
+  right: 50px;
+  bottom: 0;
+  height: 260px;
+}

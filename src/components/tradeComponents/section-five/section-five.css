@@ -1,0 +1,171 @@
+.section-five {
+  height: 790px;
+  padding: 48px 0;
+  margin: 0;
+  background-image: linear-gradient(rgb(119, 186, 241), rgb(221, 236, 245));
+}
+
+.five-container {
+  padding: 48px 24px;
+}
+
+.five-wrap {
+  padding: 40px;
+  margin: 0 140px;
+  border: 1px solid rgb(231, 227, 235);
+  border-radius: 72px;
+  height: 590px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(rgb(206, 230, 250), rgb(237, 245, 251));
+}
+
+.win-text {
+  font-size: 40px !important;
+  font-weight: 600 !important;
+  line-height: 1.1;
+  color: rgb(40, 13, 95);
+  margin-bottom: 24px;
+}
+
+.purple-win {
+  color: rgb(118, 69, 217);
+}
+
+.prizes-decr {
+  color: rgb(122, 110, 170);
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.m-b-40 {
+  margin-bottom: 40px;
+}
+
+.win-prize-card {
+  /* max-width: 650px; */
+  width: 620px;
+  margin: 0 119px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.left-prize-card {
+  /* width: 300px; */
+  background-image: linear-gradient(rgb(255, 183, 60), rgb(255, 228, 103));
+  flex: 1;
+  margin-right: 24px;
+  padding: 24px;
+  border-radius: 30px;
+  border-left: 1px solid rgb(197, 137, 34);
+  border-bottom: 3px solid rgb(197, 137, 34);
+}
+
+.right-prize-card {
+  /* width: 300px; */
+  background-image: linear-gradient(rgb(117, 68, 216), rgb(84, 35, 180));
+  flex: 1;
+  margin-right: 24px;
+  padding: 24px;
+  border-radius: 30px;
+  border-left: 1px solid rgb(55, 24, 116);
+  border-bottom: 3px solid rgb(55, 24, 116);
+}
+
+.top-img {
+  display: flex;
+  justify-content: flex-end;
+  height: 43px;
+}
+
+.top-img-st {
+  width: 36px;
+  flex-shrink: 0;
+}
+
+.pridectin-text {
+  color: rgb(40, 13, 95);
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.earn-card-price {
+  font-size: 40px !important;
+  font-weight: 600 !important;
+  line-height: 1.1;
+  color: rgb(40, 13, 95);
+}
+
+.earn-price-description {
+  color: rgb(40, 13, 95);
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+.pridiction-card-text {
+  color: rgb(40, 13, 95);
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+.earn-card-btn {
+  width: 100%;
+  height: 48px;
+  padding: 0px 24px;
+  background-color: rgb(31, 199, 212);
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 16px;
+  border-bottom: 1px solid rgb(23, 147, 156);
+}
+
+.lottery-text {
+  color: white;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.lottery-card-price {
+  font-size: 40px !important;
+  font-weight: 600 !important;
+  line-height: 1.1;
+  color: rgb(254, 191, 29);
+}
+
+.lottery-price-description {
+  color: white;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+.lottery-card-text {
+  color: white;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+.lottery-card-btn {
+  width: 100%;
+  height: 48px;
+  padding: 0px 24px;
+  background-color: rgb(31, 199, 212);
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 16px;
+  border-bottom: 1px solid rgb(23, 147, 156);
+}

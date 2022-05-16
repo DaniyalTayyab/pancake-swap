@@ -87,4 +87,79 @@
 
 .earn-lower-one {
   margin-bottom: 24px;
+  color: rgb(40, 13, 95);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.updown {
+  height: 21px;
+}
+
+.top-text {
+  color: rgb(118, 69, 217);
+}
+
+.earn-lower-two {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lower-eran-first {
+  color: rgb(118, 69, 217);
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+
+.apr-precntage {
+  color: rgb(40, 13, 95);
+  font-weight: 600;
+  line-height: 1.1;
+  font-size: 16px;
+}
+
+.apr-text {
+  color: rgb(122, 110, 170);
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.lower-two-container {
+  width: 175px;
+}
+
+.earn-border-right {
+  border-left: 1px solid rgb(122, 110, 170);
+  padding-left: 16px;
+}
+
+.s-four-wrapper {
+  position: relative;
+}
+
+.custom-shape-divider-top-1652714844 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1652714844 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 47px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1652714844 .shape-fill {
+  fill: #ffffff;
 }

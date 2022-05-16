@@ -1,0 +1,111 @@
+.section-six {
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  padding: 48px 0;
+}
+
+.buy-cake-container {
+  display: flex;
+  flex-direction: column;
+  padding: 48px 24px;
+  margin: 0px;
+  width: 100%;
+  max-width: 968px;
+  min-height: auto;
+}
+
+.buy-cake-upper {
+  display: flex;
+  flex-direction: row;
+}
+
+.buy-cake-left {
+  flex: 1;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0%;
+  margin-right: 64px;
+}
+
+.buy-cake-right {
+  flex: 1;
+}
+
+.buy-cake-title {
+  font-size: 40px !important;
+  font-weight: 600 !important;
+  line-height: 1.1;
+  color: rgb(40, 13, 95);
+  margin-bottom: 24px;
+}
+
+.buy-cake-description {
+  color: rgb(122, 110, 170);
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+.buy-cake-btn-wrap {
+  width: 100%;
+}
+
+.buy-cake-btn {
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  padding: 0px 24px;
+  background-color: rgb(31, 199, 212);
+  color: white;
+  margin-right: 16px;
+  border: 0px;
+  border-radius: 16px;
+  box-shadow: rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
+  cursor: pointer;
+}
+
+.buy-cake-learn-btn {
+  color: rgb(31, 199, 212);
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 16px;
+  border: none;
+  background: transparent;
+}
+
+.buy-cake-img {
+  height: 400px;
+}
+
+.buy-cake-lower {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.buy-lower-wrap {
+  flex: 1;
+}
+
+.border-l {
+  border-left: 1px solid rgb(158, 148, 196);
+  padding: 0 16px;
+}
+
+.buy-table-title {
+  color: rgb(122, 110, 170);
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.buy-table-lower {
+  color: rgb(40, 13, 95);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.1;
+}
