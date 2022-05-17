@@ -1,13 +1,57 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./sectionOne.css";
 import right from "../../../assets/right.png";
 import flybunny from "../../../assets/flybunny.png";
 
 const SectionOne = () => {
+  const [switchBanner, setSwitchBanner] = useState(true);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (switchBanner === true) {
+        setSwitchBanner((switchBanner) => false);
+      } else {
+        setSwitchBanner((switchBanner) => true);
+      }
+    }, 3000);
+    return () => clearInterval(interval);
+  }, [switchBanner]);
+
   return (
     <div className="section-one-container">
       <div className="top-banner">
-        <div className="top-inner-banner">
+        {switchBanner ? (
+          <div className="top-inner-banner">
+            <h2 className="lottery-text">Win $60,000 in Lottery</h2>
+            <div className="timer-container">
+              <h2 className="timer-digit">23</h2>
+              <h2 className="timer-sub">h</h2>
+              <h2 className="timer-digit">46</h2>
+              <h2 className="timer-sub">m</h2>
+              <h2 className="timer-digit">40</h2>
+              <h2 className="timer-sub">s</h2>
+            </div>
+            <button className="play-btn">
+              Play now <img src={right} alt="right-arrow" />
+            </button>
+          </div>
+        ) : (
+          <div className="top-inner-banner">
+            <h2 className="lottery-text">2nd wala hissa ha bhai</h2>
+            <div className="timer-container">
+              <h2 className="timer-digit">23</h2>
+              <h2 className="timer-sub">h</h2>
+              <h2 className="timer-digit">46</h2>
+              <h2 className="timer-sub">m</h2>
+              <h2 className="timer-digit">40</h2>
+              <h2 className="timer-sub">s</h2>
+            </div>
+            <button className="play-btn">
+              Play now <img src={right} alt="right-arrow" />
+            </button>
+          </div>
+        )}
+        {/* <div ref={oneRef} className="top-inner-banner">
           <h2 className="lottery-text">Win $60,000 in Lottery</h2>
           <div className="timer-container">
             <h2 className="timer-digit">23</h2>
@@ -20,7 +64,24 @@ const SectionOne = () => {
           <button className="play-btn">
             Play now <img src={right} alt="right-arrow" />
           </button>
-        </div>
+        </div> */}
+
+        {/* 2nd inner */}
+        {/* <div ref={twoRef} className="top-inner-banner">
+          <h2 className="lottery-text">2nd wala hissa ha bhai</h2>
+          <div className="timer-container">
+            <h2 className="timer-digit">23</h2>
+            <h2 className="timer-sub">h</h2>
+            <h2 className="timer-digit">46</h2>
+            <h2 className="timer-sub">m</h2>
+            <h2 className="timer-digit">40</h2>
+            <h2 className="timer-sub">s</h2>
+          </div>
+          <button className="play-btn">
+            Play now <img src={right} alt="right-arrow" />
+          </button>
+        </div> */}
+        {/* 2nd inner  */}
       </div>
 
       <div className="moon-section">
